@@ -1,0 +1,105 @@
+.outer-container{
+    width: 700px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-add{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    width: 500px;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 5px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid rgb(146, 223, 146);
+}
+
+#newtaskbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: none;
+    background-color:white;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+
+#newtaskbtn:hover{
+    cursor: pointer;
+    outline: none;
+    border: 2px solid rgb(146, 223, 146);
+}
+
+.notes-card{
+    
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    width: 650px;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.notes-card button{
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    color: red;
+}
+
+.notes-card button:hover{
+    outline:none;
+    border: 2px solid rgb(146, 223, 146);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.removeallcont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.removeallcont button{
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(53, 223, 53);
+    font-weight: 500;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.removeallcont button:hover{
+    outline: none;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.todonotes{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
